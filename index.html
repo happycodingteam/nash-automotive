@@ -7,21 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Syahrizaldev">
     <title>Nash Automotive</title>
+    <link rel="shortcut icon" href="assets/image/logo.png" type="image/x-icon">
+    <!-- =================== Swiper CSS =================== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- =================== Google fonts CSS =================== -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- Boxicons CSS -->
+    <!-- =================== Boxicons CSS =================== -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ======================== Plugin for Navbar ================ -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/ionicons.min.css">
+    <!-- ================= Main Style Sheet ===================== -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body>
+<body id="topbar">
     <!-- Section: Header -->
     <header class="header">
         <div class="container">
             <div class="wrapper">
                 <div class="header-item-left">
-                    <h1><a href="index-2.html" class="brand">Logo H</a></h1>
+                    <h1><a href="index.html" class="brand">
+                            <img class="logo" src="assets/image/logo.png" alt="">
+                        </a></h1>
                 </div>
                 <!-- Section: Navbar Menu -->
                 <div class="header-item-center">
@@ -107,7 +115,7 @@
                                         <img src="assets/image/nav-01.webp" class="responsive" alt="Product">
                                         <div class="helpful-text-area">
                                             <h2 class="helpful-text">‘Helpful and friendly team....thank you!’</h2>
-                                            <p class="helpful-details">This is the third vehicle I''ve leased through Synergy. Great service, flexible and very informative throughout the process. Ellie and the team are… </p>
+                                            <p class="helpful-details">This is the third vehicle I''ve leased through synergy. Great service, flexible and very informative throughout the process. Ellie and the team are… </p>
                                             <!-- <p class="post-time"><i class='bx bx-user'></i> <span>RLH Architectural Ltd</span>
                                                 <i class='bx bx-time' ></i> <span>Posted 18 hours ago</span>
                                             </p> -->
@@ -160,12 +168,10 @@
                                         </ul>
                                     </div>
                                     <div class="list-item">
-                                       
-                                        
                                         <img src="assets/image/nav-02.webp" class="responsive" alt="Product">
                                         <div class="helpful-text-area">
                                             <h2 class="helpful-text">‘Helpful and friendly team....thank you!’</h2>
-                                            <p class="helpful-details">This is the third vehicle I''ve leased through Synergy. Great service, flexible and very informative throughout the process. Ellie and the team are… </p>
+                                            <p class="helpful-details">This is the third vehicle I''ve leased through Nash Automotive. Great service, flexible and very informative throughout the process. Ellie and the team are… </p>
                                             <!-- <p class="post-time"><i class='bx bx-user'></i> <span>RLH Architectural Ltd</span>
                                                 <i class='bx bx-time' ></i> <span>Posted 18 hours ago</span>
                                             </p> -->
@@ -173,10 +179,10 @@
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="#">Personal Leasing</a></li>
-                            <li><a href="#">Business Leasing</a></li>
-                            <li><a href="#">Reviews</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="https://www.synergycarleasing.co.uk/personal-leasing/">Personal Leasing</a></li>
+                            <li><a href="https://www.synergycarleasing.co.uk/business-leasing/">Business Leasing</a></li>
+                            <li><a href="https://www.synergycarleasing.co.uk/reviews/">Reviews</a></li>
+                            <li><a href="https://www.synergycarleasing.co.uk/contact/">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -184,14 +190,14 @@
                     <div class="nav-btn-area">
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="https://www.synergycarleasing.co.uk/compare/">
                                     <i class='bx bx-dock-bottom'></i>
                                     <span>My Showroom</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <i class='bx bx-search' ></i>
+                                <a href="index.html">
+                                    <i class='bx bx-search'></i>
                                     <span>Search</span>
                                 </a>
                             </li>
@@ -227,7 +233,22 @@
                             <div class="filter-item">
                                 <select name="" id="">
                                     <option value="">Select Make</option>
-                                    <option value="">Item 01</option>
+                                    <option value="">BYD</option>
+                                    <option value="">CITROEN</option>
+                                    <option value="">FIAT</option>
+                                    <option value="">FORD</option>
+                                    <option value="">ISUZU</option>
+                                    <option value="">KGM</option>
+                                    <option value="">LAND ROVER</option>
+                                    <option value="">LEVC</option>
+                                    <option value="">MAXUS</option>
+                                    <option value="">MERCEDES-BENZ</option>
+                                    <option value="">NISSAN</option>
+                                    <option value="">PEUGEOT</option>
+                                    <option value="">RENAULT</option>
+                                    <option value="">TOYOTA</option>
+                                    <option value="">VAUXHALL</option>
+                                    <option value="">VOLKSWAGEN</option>
                                 </select>
                             </div>
                             <div class="filter-item">
@@ -238,6 +259,24 @@
                             <div class="filter-item">
                                 <select name="" id="">
                                     <option value="">All Body Types</option>
+                                    <option value="">LARGE VAN</option>
+                                    <option value="">MEDIUM VAN</option>
+                                    <option value="">CREW VAN</option>
+                                    <option value="">SMALL VAN</option>
+                                    <option value="">TIPPER - DROPSIDE</option>
+                                    <option value="">WINDOW VAN - KOMBI</option>
+                                    <option value="">MINI-BUS</option>
+                                    <option value="">PICK-UP</option>
+                                    <option value="">LUTON VAN</option>
+                                    <option value="">MINI BUS</option>
+                                    <option value="">LARGE</option>
+                                    <option value="">MEDIUM</option>
+                                    <option value="">WINDOW</option>
+                                    <option value="">LARGE BUS</option>
+                                    <option value="">LUTON</option>
+                                    <option value="">DROPSIDE</option>
+                                    <option value="">CREW</option>
+                                    <option value="">CREW BUS</option>
                                 </select>
                             </div>
                             <div class="filter-item">
@@ -252,6 +291,9 @@
                         <a class="contact-button" href="#"> Request a callback</a>
                     </div>
                 </div>
+                <div class="filter-start-area">
+                    <img class="start-image mobile" src="assets/image/feefo-logo.webp" alt="start">
+                </div>
             </div>
         </div>
     </div>
@@ -259,285 +301,1221 @@
     <!-- Section: Car Details Start -->
     <section class="main-car-details-section">
         <div class="container">
-            <div class="car-select-area">
-                <div class="car-filter">
-                    <span class="pricing">Pricing </span>
-                    <a class="p-btn active-p-btn" href="#">Business</a>
-                    <a class="p-btn" href="#">Personal</a>
+            <div id="main-body">
+                <div class="car-select-area">
+                    <div class="car-filter">
+                        <span class="pricing">Pricing </span>
+                        <a class="p-btn active-p-btn" href="#">Business</a>
+                        <a class="p-btn" href="#">Personal</a>
+                    </div>
+                    <div class="car-filter-heading">
+                        <h3 class="car-filter-heading-text">THIS WEEK'S <span>TOP 20 CAR LEASE DEALS</span></h3>
+                    </div>
                 </div>
-                <div class="car-filter-heading">
-                    <h3 class="car-filter-heading-text">THIS WEEK'S <span>TOP 20 CAR LEASE DEALS</span></h3>
+                <div class="filter-discription">
+                    <p>
+                        If you’re looking for the very best car lease deals, Nash Automotive can help. Our dedicated account managers can help find a car leasing deal that meets your individual leasing needs and requirements.
+                    </p>
+                    <a href="#">Read more</a>
                 </div>
-            </div>
-            <div class="filter-discription">
-                <p>
-                    If you’re looking for the very best car lease deals, Synergy can help. Our dedicated account managers can help find a car leasing deal that meets your individual leasing needs and requirements.
-                </p>
-                <a href="#">Read more</a>
-            </div>
-            <div class="show-car-area">
-                <div class="show-car-item">
-                    <div class="show-car-header-area">
-                        <div class="star-area">
-                            <i class='bx bxs-star mark-start'></i>
+                <div class="show-car-area">
+                    <div class="show-car-item border-right responsive-border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Nissan Qashqai</h3>
+                                <h3 class="show-car-details-text">1.5 E-Power N-Connecta [Glass Roof] 5dr Auto</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£189.98</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
                         </div>
-                        <div class="show-car-details-area">
-                            <h3 class="show-car-heading">Nissan Qashqai</h3>
-                            <h3 class="show-car-details-text">1.5 E-Power N-Connecta [Glass Roof] 5dr Auto</h3>
-                            <p class="show-car-price">
-                                <strong>From <span class="u-brandColour">£189.98</span> <span class="u-gray">+ VAT</span></strong>
-                            </p>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/01.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£2,279.76 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/nissan/qashqai/suv/1-5-e-power-n-connecta-glass-roof-5dr-auto/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/nissan/qashqai/">View All Qashqai Deals</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="show-car-body-area">
-                        <div class="car-image-area">
-                            <img class="car-image" src="assets/image/show-car/01.webp" alt="car">
-                        </div>
-                        <div class="show-car-body">
-                            <div class="show-car-body-start">
-                                <i class='bx bxs-star car-start'></i>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
                             </div>
-                            <div class="show-car-body-item">
-                                <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
-                                <p class="car-payment ">
-                                    <strong style="font-weight: 700;">£2,279.76 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
-                                    <small>Vehicle sourcing charge £225 + VAT</small>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">RWD 5dr Auto</h3>
+                                <h3 class="show-car-details-text">RWD 5dr Auto</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£349.89</span> <span class="u-gray">+ VAT</span></strong>
                                 </p>
-                                <div class="view-btn-area">
-                                    <a class="view-btn" href="#">View Deal</a>
-                                    <a class="view-btn" href="#">View All Qashqai Deals</a>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/02.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£4,198.68 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/tesla/model-y/suv/rwd-5dr-auto/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/tesla/model-y/">View All Qashqai Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item responsive-border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading"> Mercedes-Benz EQB</h3>
+                                <h3 class="show-car-details-text">EQB 300 4Matic 168kW AMG Line 66.5kWh 5dr Auto [PRE CURRENT MODEL]</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£349.87</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/03.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">PRE-REGISTERED - BUSINESS ONLY STOCK OFFER</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£3,148.83 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/mercedes-benz/eqb/suv/eqb-300-4matic-168kw-amg-line-66-5kwh-5dr-auto-pre-current-model/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/mercedes-benz/eqb/">View All Qashqai Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Vauxhall Corsa Hatchback-Old Model</h3>
+                                <h3 class="show-car-details-text">100kW GS 50kWh 5dr Auto [11kWCh]</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£149.98</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/04.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">PRE-REGISTERED VEHICLE - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£1,349.01 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/vauxhall/corsa/hatchback-old-model/100kw-gs-50kwh-5dr-auto-11kwch/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/vauxhall/corsa/hatchback-old-model/">View All Qashqai Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right responsive-border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Tesla Model 3 Saloon</h3>
+                                <h3 class="show-car-details-text">RWD 4dr Auto</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£379.97</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/05.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£4,559.64 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/tesla/model-3/saloon/rwd-4dr-auto/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/tesla/model-3/saloon/">View All Qashqai Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Audi A4 Avant</h3>
+                                <h3 class="show-car-details-text">40 TFSI 204 Black Edition 5dr S Tronic</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£277.72</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/06.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£2,499.48 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/">View All A4 Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right responsive-border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading"> Nissan Ariya</h3>
+                                <h3 class="show-car-details-text">178kW Advance 87kWh 22kWCh 5dr Auto [Sky Pack]</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£334.86</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/07.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">LIMITED Nash Automotive SPECIAL OFFER</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£3,013.74 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/nissan/ariya/">View All Ariya Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Volkswagen Golf Hatchback-R</h3>
+                                <h3 class="show-car-details-text">2.0 TSI 320 R 4Motion 5dr DSG</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£307.94</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/08.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">PRE-REGISTERED VEHICLE - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£2,771.46 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/volkswagen/golf/hatchback-r/">View All Golf Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item responsive-border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Volkswagen T-Roc</h3>
+                                <h3 class="show-car-details-text">1.5 TSI EVO Life 5dr DSG</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£191.86</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/09.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£2,302.32 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/volkswagen/t-roc/suv/">View All T-Roc Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Volkswagen T-Roc</h3>
+                                <h3 class="show-car-details-text">EQA 300 4Matic 168kW AMG Line 66.5kWh 5dr Auto [PRE CURRENT MODEL]</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£354.89</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/10.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">PRE-REGISTERED - BUSINESS ONLY STOCK OFFER</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£3,194.01 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/mercedes-benz/eqa/">View All EQA Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right responsive-border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading"> BMW 5 Series Saloon</h3>
+                                <h3 class="show-car-details-text">530e M Sport 4dr Auto</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£384.93</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/11.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">BUSINESS ONLY OFFER - ENQUIRE FOR PERSONAL</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£3,464.37 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/bmw/5-series/saloon/">View All 5 Series Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Volkswagen ID.5</h3>
+                                <h3 class="show-car-details-text">150kW Style Pro Performance 77kWh 5dr Auto 23 MY</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£366.95</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/12.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">PRE-REGISTERED VEHICLE - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£3,302.55 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/volkswagen/id-5/">View All ID.5 Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right responsive-border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Nissan Juke SUV-Previous Model</h3>
+                                <h3 class="show-car-details-text">1.0 DiG-T 114 N-Connecta 5dr</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£169.93</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/13.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">PRE-REGISTERED VEHICLE - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£1,529.37 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/nissan/juke/suv-previous-model/">View All Juke Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading"> BMW iX2</h3>
+                                <h3 class="show-car-details-text">230kW xDrive30 M Sport 65kWh 5dr Auto</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£335.65</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/14.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">BUSINESS ONLY OFFER - ENQUIRE FOR PERSONAL</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£3,020.85 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/bmw/ix2/">View All iX2 Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item responsive-border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">BMW iX</h3>
+                                <h3 class="show-car-details-text">240kW xDrive40 M Sport 76.6kWh 5dr Auto</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£491.98</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/15.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">BUSINESS ONLY OFFER - ENQUIRE FOR PERSONAL</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£3,020.85 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/bmw/ix/">View All iX Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Cupra Born Hatchback</h3>
+                                <h3 class="show-car-details-text">150kW V1 58kWh 5dr Auto</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£234.93</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/16.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£2,114.37 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/cupra/born/">View All Born Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right responsive-border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Volkswagen ID.BUZZ MPV</h3>
+                                <h3 class="show-car-details-text">150kW Style Pro 77kWh 5dr Auto 22MY</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£394.94</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/17.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£3,554.46 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/volkswagen/id-buzz/">View All ID.BUZZ Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Suzuki Swift Hatchback</h3>
+                                <h3 class="show-car-details-text">1.2 Mild Hybrid Motion 5dr</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£134.94</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/18.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">BRAND NEW MODEL</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£1,214.46 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/suzuki/swift/">View All Swift Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right responsive-border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Audi Q5</h3>
+                                <h3 class="show-car-details-text">45 TFSI Quattro S Line 5dr S Tronic</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£384.89</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/19.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">LIMITED Nash Automotive SPECIAL OFFER</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£4,618.68 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/q5/suv/">View All Q5 Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Mini Cooper Hatchback</h3>
+                                <h3 class="show-car-details-text">1.5 C Classic 3dr Auto</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£194.88</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/20.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">BRAND NEW MODEL</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£1,753.92 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/mini/cooper/">View All Cooper Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item responsive-border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Vauxhall GRANDLAND</h3>
+                                <h3 class="show-car-details-text">1.2 Turbo Ultimate 5dr</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£184.85</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/21.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£1,663.65 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/vauxhall/grandland/">View All GRANDLAND Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Hyundai Tucson SUV-Previous Model </h3>
+                                <h3 class="show-car-details-text">1.6 TGDi SE Connect 5dr 2WD 23 MY</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£217.90</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/22.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£1,961.10 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/hyundai/tucson/suv-previous-model/">View All Tucson Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right responsive-border-right" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Ford Mustang Mach-E</h3>
+                                <h3 class="show-car-details-text">216kW Premium 91kWh RWD 5dr Auto</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£379.98</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/23.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">SPECIAL OFFER - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£3,419.82 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/ford/mustang-mach-e/">View All Mustang Mach-E Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item" id="border-top">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Lexus LBX</h3>
+                                <h3 class="show-car-details-text">1.5 Urban 5dr E-CVT</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£279.95</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/24.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">SPECIAL OFFER - JUNE DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£2,519.55 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/lexus/lbx/">View All LBX Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right responsive-border-right" id="border-top" style="border-bottom: 1px solid #d4d4d4;">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Motor UK MG4 </h3>
+                                <h3 class="show-car-details-text">320kW EV XPOWER 64kWh 5dr Auto</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£284.85</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/25.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£2,563.65 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/mg-motor-uk/mg4/">View All MG4 Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item border-right last-child-two" id="border-top" style="border-bottom: 1px solid #d4d4d4;">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Porsche Taycan Saloon</h3>
+                                <h3 class="show-car-details-text">300kW 89kWh 4dr RWD Auto</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£897.88</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/26.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">BRAND NEW MODEL</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£10,774.56 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/porsche/taycan/saloon/">View All Taycan Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                    <div class="show-car-item last-child" id="border-top" style="border-bottom: 1px solid #d4d4d4;">
+                        <div class="show-car-header-area">
+                            <div class="star-area">
+                                <i class='bx bxs-star mark-start'></i>
+                            </div>
+                            <div class="show-car-details-area">
+                                <h3 class="show-car-heading">Audi A3 Sportback-Previous Model</h3>
+                                <h3 class="show-car-details-text">40 TFSI e S Line 5dr S Tronic 23 MY</h3>
+                                <p class="show-car-price">
+                                    <strong>From <span class="u-brandColour">£291.73</span> <span class="u-gray">+ VAT</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-car-body-area">
+                            <div class="car-image-area">
+                                <img class="car-image" src="assets/image/show-car/27.webp" alt="car">
+                            </div>
+                            <div class="show-car-body">
+                                <div class="show-car-body-start">
+                                    <i class='bx bxs-star car-start'></i>
+                                </div>
+                                <div class="show-car-body-item">
+                                    <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
+                                    <p class="car-payment ">
+                                        <strong style="font-weight: 700;">£2,625.57 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
+                                        <small>Vehicle sourcing charge £225 + VAT</small>
+                                    </p>
+                                    <div class="view-btn-area">
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
+                                        <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a3/sportback-previous-model/">View All A3 Deals</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Show Car Item-->
+                </div>
+                <div class="review-show-area">
+                    <div class="review-hadding-area">
+                        <h2 style="color: #19AED9;">SEE WHAT Nash Automotive <span style="color: #000000;">CUSTOMERS ARE SAYING</span></h2>
+                        <p>Our business is built on repeat orders, recommendations and referrals. We're passionate about delivering an excellent customer experience.</p>
+                    </div>
+                    <div class="platinum-area">
+                        <div class="platinum-left">
+                            <div class="platinum-img-box">
+                                <img class="platinum" src="assets/image/feefo-platinum.webp" alt="platinum-img">
+                            </div>
+                            <div class="platinum-headding">
+                                <h3>Platinum Trusted Service</h3>
+                            </div>
+                            <div class="platinum-reviews">
+                                <div class="reviews-left">
+                                    <p><span style="color: #FFD000;font-size: 45px; font-weight: 800;">4.9</span><span class="reviews-span">/5</span></p>
+                                    <div class="reviews-star">
+                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                    </div>
+                                </div>
+                                <div class="reviews-right">
+                                    <div class="reviews-box">
+                                        <span class="box-one">
+                                            <p>5</p>
+                                            <i class='bx bxs-star'></i>
+                                        </span>
+                                        <span class="box-two"></span>
+                                        <span class="box-three">
+                                            <p>6,155</p>
+                                        </span>
+                                    </div>
+                                    <div class="reviews-box">
+                                        <span class="box-one">
+                                            <p>4</p>
+                                            <i class='bx bxs-star'></i>
+                                        </span>
+                                        <span class="box-two box-two-two"></span>
+                                        <span class="box-three">
+                                            <p>412</p>
+                                        </span>
+                                    </div>
+                                    <div class="reviews-box">
+                                        <span class="box-one">
+                                            <p>3</p>
+                                            <i class='bx bxs-star'></i>
+                                        </span>
+                                        <span class="box-two-one"></span>
+                                        <span class="box-three">
+                                            <p>19</p>
+                                        </span>
+                                    </div>
+                                    <div class="reviews-box">
+                                        <span class="box-one">
+                                            <p>2</p>
+                                            <i class='bx bxs-star'></i>
+                                        </span>
+                                        <span class="box-two-one"></span>
+                                        <span class="box-three">
+                                            <p>3</p>
+                                        </span>
+                                    </div>
+                                    <div class="reviews-box">
+                                        <span class="box-one">
+                                            <p>1</p>
+                                            <i class='bx bxs-star'></i>
+                                        </span>
+                                        <span class="box-two-one"></span>
+                                        <span class="box-three">
+                                            <p>6</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-tool">
+                                <p>6,595 REVIEWS FOR Nash Automotive’S CUSTOMER SERVICE</p>
+                            </div>
+                        </div>
+                        <div class="platinum-right">
+                            <div class="slider-box">
+                                <!-- Swiper -->
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="slidebox-area">
+                                                <div class="slider-hadding">
+                                                    <h4>Anonymous User</h4>
+                                                    <div class="star-slider-box">
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-text-area">
+                                                    <p>This is the third vehicle I''ve leased through Nash Automotive. Great service, flexible and very informative throughout the process. Ellie and the team are…</p>
+                                                </div>
+                                                <div class="postday-area">
+                                                    <span>Posted 5 days ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="slidebox-area">
+                                                <div class="slider-hadding">
+                                                    <h4>RLH Architectural Ltd</h4>
+                                                    <div class="star-slider-box">
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-text-area">
+                                                    <p>Excellent service , David was helpful and professional throughout making it an effortless process, , from receiving advice on what was on offer to…</p>
+                                                </div>
+                                                <div class="postday-area">
+                                                    <span>Posted 18 hours ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="slidebox-area">
+                                                <div class="slider-hadding">
+                                                    <h4>E Park Solutions</h4>
+                                                    <div class="star-slider-box">
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-text-area">
+                                                    <p></p>
+                                                </div>
+                                                <div class="postday-area">
+                                                    <span>Posted yesterday</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="slidebox-area">
+                                                <div class="slider-hadding">
+                                                    <h4>
+                                                        Anonymous User
+                                                    </h4>
+                                                    <div class="star-slider-box">
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-text-area">
+                                                    <p>Excellent service , David was helpful and professional throughout making it an effortless process, , from receiving advice on what was on offer to…</p>
+                                                </div>
+                                                <div class="postday-area">
+                                                    <span>Posted 2 days ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="slidebox-area">
+                                                <div class="slider-hadding">
+                                                    <h4>
+                                                        Anonymous User
+                                                    </h4>
+                                                    <div class="star-slider-box">
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-text-area">
+                                                    <p>Excellent service , David was helpful and professional throughout making it an effortless process, , from receiving advice on what was on offer to…</p>
+                                                </div>
+                                                <div class="postday-area">
+                                                    <span>Posted 1 days ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="slidebox-area">
+                                                <div class="slider-hadding">
+                                                    <h4>
+                                                        Anonymous User
+                                                    </h4>
+                                                    <div class="star-slider-box">
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                        <span class="star-box"><i class='bx bxs-star'></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-text-area">
+                                                    <p>Excellent service , David was helpful and professional throughout making it an effortless process, , from receiving advice on what was on offer to…</p>
+                                                </div>
+                                                <div class="postday-area">
+                                                    <span>Posted 120 days ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--End Show Car Item-->
-                <div class="show-car-item">
-                    <div class="show-car-header-area">
-                        <div class="star-area">
-                            <i class='bx bxs-star mark-start'></i>
-                        </div>
-                        <div class="show-car-details-area">
-                            <h3 class="show-car-heading">RWD 5dr Auto</h3>
-                            <h3 class="show-car-details-text">RWD 5dr Auto</h3>
-                            <p class="show-car-price">
-                                <strong>From <span class="u-brandColour">£349.89</span> <span class="u-gray">+ VAT</span></strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="show-car-body-area">
-                        <div class="car-image-area">
-                            <img class="car-image" src="assets/image/show-car/02.webp" alt="car">
-                        </div>
-                        <div class="show-car-body">
-                            <div class="show-car-body-start">
-                                <i class='bx bxs-star car-start'></i>
-                            </div>
-                            <div class="show-car-body-item">
-                                <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
-                                <p class="car-payment ">
-                                    <strong style="font-weight: 700;">£4,198.68 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
-                                    <small>Vehicle sourcing charge £225 + VAT</small>
-                                </p>
-                                <div class="view-btn-area">
-                                    <a class="view-btn" href="https://www.synergycarleasing.co.uk/tesla/model-y/suv/rwd-5dr-auto/">View Deal</a>
-                                    <a class="view-btn" href="https://www.synergycarleasing.co.uk/tesla/model-y/">View All Qashqai Deals</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End Show Car Item-->
-                <div class="show-car-item">
-                    <div class="show-car-header-area">
-                        <div class="star-area">
-                            <i class='bx bxs-star mark-start'></i>
-                        </div>
-                        <div class="show-car-details-area">
-                            <h3 class="show-car-heading"> Mercedes-Benz EQB</h3>
-                            <h3 class="show-car-details-text">EQB 300 4Matic 168kW AMG Line 66.5kWh 5dr Auto [PRE CURRENT MODEL]</h3>
-                            <p class="show-car-price">
-                                <strong>From <span class="u-brandColour">£349.87</span> <span class="u-gray">+ VAT</span></strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="show-car-body-area">
-                        <div class="car-image-area">
-                            <img class="car-image" src="assets/image/show-car/03.webp" alt="car">
-                        </div>
-                        <div class="show-car-body">
-                            <div class="show-car-body-start">
-                                <i class='bx bxs-star car-start'></i>
-                            </div>
-                            <div class="show-car-body-item">
-                                <h5 class="offer-heading">PRE-REGISTERED - BUSINESS ONLY STOCK OFFER</h5>
-                                <p class="car-payment ">
-                                    <strong style="font-weight: 700;">£3,148.83 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
-                                    <small>Vehicle sourcing charge £225 + VAT</small>
-                                </p>
-                                <div class="view-btn-area">
-                                    <a class="view-btn" href="https://www.synergycarleasing.co.uk/mercedes-benz/eqb/suv/eqb-300-4matic-168kw-amg-line-66-5kwh-5dr-auto-pre-current-model/">View Deal</a>
-                                    <a class="view-btn" href="https://www.synergycarleasing.co.uk/mercedes-benz/eqb/">View All Qashqai Deals</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End Show Car Item-->
-                <div class="show-car-item">
-                    <div class="show-car-header-area">
-                        <div class="star-area">
-                            <i class='bx bxs-star mark-start'></i>
-                        </div>
-                        <div class="show-car-details-area">
-                            <h3 class="show-car-heading">Vauxhall Corsa Hatchback-Old Model</h3>
-                            <h3 class="show-car-details-text">100kW GS 50kWh 5dr Auto [11kWCh]</h3>
-                            <p class="show-car-price">
-                                <strong>From <span class="u-brandColour">£149.98</span> <span class="u-gray">+ VAT</span></strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="show-car-body-area">
-                        <div class="car-image-area">
-                            <img class="car-image" src="assets/image/show-car/04.webp" alt="car">
-                        </div>
-                        <div class="show-car-body">
-                            <div class="show-car-body-start">
-                                <i class='bx bxs-star car-start'></i>
-                            </div>
-                            <div class="show-car-body-item">
-                                <h5 class="offer-heading">PRE-REGISTERED VEHICLE - MAY DELIVERY</h5>
-                                <p class="car-payment ">
-                                    <strong style="font-weight: 700;">£1,349.01 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
-                                    <small>Vehicle sourcing charge £225 + VAT</small>
-                                </p>
-                                <div class="view-btn-area">
-                                    <a class="view-btn" href="https://www.synergycarleasing.co.uk/vauxhall/corsa/hatchback-old-model/100kw-gs-50kwh-5dr-auto-11kwch/">View Deal</a>
-                                    <a class="view-btn" href="https://www.synergycarleasing.co.uk/vauxhall/corsa/hatchback-old-model/">View All Qashqai Deals</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End Show Car Item-->
-                <div class="show-car-item">
-                    <div class="show-car-header-area">
-                        <div class="star-area">
-                            <i class='bx bxs-star mark-start'></i>
-                        </div>
-                        <div class="show-car-details-area">
-                            <h3 class="show-car-heading">Tesla Model 3 Saloon</h3>
-                            <h3 class="show-car-details-text">RWD 4dr Auto</h3>
-                            <p class="show-car-price">
-                                <strong>From <span class="u-brandColour">£379.97</span> <span class="u-gray">+ VAT</span></strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="show-car-body-area">
-                        <div class="car-image-area">
-                            <img class="car-image" src="assets/image/show-car/05.webp" alt="car">
-                        </div>
-                        <div class="show-car-body">
-                            <div class="show-car-body-start">
-                                <i class='bx bxs-star car-start'></i>
-                            </div>
-                            <div class="show-car-body-item">
-                                <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
-                                <p class="car-payment ">
-                                    <strong style="font-weight: 700;">£4,559.64 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
-                                    <small>Vehicle sourcing charge £225 + VAT</small>
-                                </p>
-                                <div class="view-btn-area">
-                                    <a class="view-btn" href="https://www.synergycarleasing.co.uk/tesla/model-3/saloon/rwd-4dr-auto/">View Deal</a>
-                                    <a class="view-btn" href="https://www.synergycarleasing.co.uk/tesla/model-3/saloon/">View All Qashqai Deals</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End Show Car Item-->
-                <div class="show-car-item">
-                    <div class="show-car-header-area">
-                        <div class="star-area">
-                            <i class='bx bxs-star mark-start'></i>
-                        </div>
-                        <div class="show-car-details-area">
-                            <h3 class="show-car-heading">Audi A4 Avant</h3>
-                            <h3 class="show-car-details-text">40 TFSI 204 Black Edition 5dr S Tronic</h3>
-                            <p class="show-car-price">
-                                <strong>From <span class="u-brandColour">£277.72</span> <span class="u-gray">+ VAT</span></strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="show-car-body-area">
-                        <div class="car-image-area">
-                            <img class="car-image" src="assets/image/show-car/06.webp" alt="car">
-                        </div>
-                        <div class="show-car-body">
-                            <div class="show-car-body-start">
-                                <i class='bx bxs-star car-start'></i>
-                            </div>
-                            <div class="show-car-body-item">
-                                <h5 class="offer-heading">STOCK OFFER - MAY DELIVERY</h5>
-                                <p class="car-payment ">
-                                    <strong style="font-weight: 700;">£2,499.48 +VAT</strong> <span class="u-gray"> Initial Rental</span><br>
-                                    <small>Vehicle sourcing charge £225 + VAT</small>
-                                </p>
-                                <div class="view-btn-area">
-                                    <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/40-tfsi-204-black-edition-5dr-s-tronic/">View Deal</a>
-                                    <a class="view-btn" href="https://www.synergycarleasing.co.uk/audi/a4/avant/">View All A4 Deals</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End Show Car Item-->
             </div>
         </div>
     </section>
     <!-- Section: Car Details End -->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <br>
     <br>
     <!-- Section: praimary-deals-section -->
@@ -551,7 +1529,7 @@
                     <div class="text-deats">
                         <p>
                             If you need to secure a car lease with quick delivery, then check out
-                            our in stock car lease deals. At Synergy we offer a
+                            our in stock car lease deals. At Nash Automotive we offer a
                             great range of in stock lease deals to suit all our customers.
                             These can often be available in limited numbers and can change
                             frequently, so check out our latest deals today.
@@ -609,7 +1587,7 @@
                             <i class='bx bxs-quote-left'></i>
                         </div>
                         <div class="headding-box">
-                            <h2>TALK TO<br>
+                            <h2>TALK TO<br class="br">
                                 OUR TEAM</h2>
                         </div>
                     </div>
@@ -632,7 +1610,7 @@
                 <div class="join-box join-box-mm">
                     <div class="hedding-join">
                         <div class="headding-box-two">
-                            <h2>ACCREDITATION<br>
+                            <h2>ACCREDITATION<br class="br">
                                 & PARTNERS</h2>
                         </div>
                     </div>
@@ -640,9 +1618,9 @@
                         <img class="malti-logo" src="assets/image/accreditation.png" alt="malti-logo">
                     </div>
                     <div class="textarea-two">
-                        <p>SYNERGY AUTOMOTIVE LTD TRADING AS SYNERGY CAR LEASING IS AUTHORISED AND
-                            REGULATED BY THE FINANCIAL CONDUCT AUTHORITY (FCA) FRN 660618. SYNERGY
-                            AUTOMOTIVE LTD TRADING AS SYNERGY CAR LEASING IS A CREDIT BROKER AND NOT A LENDER.
+                        <p>Nash Automotive AUTOMOTIVE LTD TRADING AS Nash Automotive CAR LEASING IS AUTHORISED AND
+                            REGULATED BY THE FINANCIAL CONDUCT AUTHORITY (FCA) FRN 660618. Nash Automotive
+                            AUTOMOTIVE LTD TRADING AS Nash Automotive CAR LEASING IS A CREDIT BROKER AND NOT A LENDER.
                         </p>
                     </div>
                 </div>
@@ -658,7 +1636,7 @@
                     </div>
                     <div class="textarea-two">
                         <p>Be the first to receive exclusive special offers, news and information
-                            from Synergy Car Leasing. We will not pass your details to anyone else
+                            from Nash Automotive Car Leasing. We will not pass your details to anyone else
                         </p>
                         <p>
                             You can unsubscribe at any time. View<br> our <a href="#">Privacy Policy</a>
@@ -680,115 +1658,115 @@
                     <div class="fooder-link-area">
                         <ul class="ul-itam-fooder">
                             <li class="list-item-fooder">
-                                <a class="link">BUSINESS FINANCE APPLICATION</a>
+                                <a href="#" class="link">BUSINESS FINANCE APPLICATION</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">BUSINESS LEASING</a>
+                                <a href="#" class="link">BUSINESS LEASING</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link"> BUSINESS LEASING GUIDE</a>
+                                <a href="#" class="link"> BUSINESS LEASING GUIDE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">CANCELLATION POLICY</a>
+                                <a href="#" class="link">CANCELLATION POLICY</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">CAREERS</a>
+                                <a href="#" class="link">CAREERS</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">COMMISSION DISCLOSURE</a>
+                                <a href="#" class="link">COMMISSION DISCLOSURE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link"> COMPLAINTS</a>
+                                <a href="#" class="link"> COMPLAINTS</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">COOKIE & PRIVACY POLICY</a>
+                                <a href="#" class="link">COOKIE & PRIVACY POLICY</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">COVID-19 HELP & ADVICE</a>
+                                <a href="#" class="link">COVID-19 HELP & ADVICE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">ELECTRIC LEASING GUIDE</a>
+                                <a href="#" class="link">ELECTRIC LEASING GUIDE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">FAIR WEAR & TEAR GUIDE</a>
+                                <a href="#" class="link">FAIR WEAR & TEAR GUIDE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">FAQS</a>
+                                <a href="#" class="link">FAQS</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">FLEET MANAGEMENT</a>
+                                <a href="#" class="link">FLEET MANAGEMENT</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">GLOBAL SEMI-CONDUCTOR SHORTAGE</a>
+                                <a href="#" class="link">GLOBAL SEMI-CONDUCTOR SHORTAGE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">HOME EV CHARGER INSTALLATION</a>
+                                <a href="#" class="link">HOME EV CHARGER INSTALLATION</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">INFORMATION NOTICE</a>
+                                <a href="#" class="link">INFORMATION NOTICE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">GUIDES</a>
+                                <a href="#" class="link">GUIDES</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">INITIAL DISCLOSURE</a>
+                                <a href="#" class="link">INITIAL DISCLOSURE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">LEASING GUIDE</a>
+                                <a href="#" class="link">LEASING GUIDE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">MAINTENANCE LEASING GUIDE</a>
+                                <a href="#" class="link">MAINTENANCE LEASING GUIDE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">MODERN SLAVERY</a>
+                                <a href="#" class="link">MODERN SLAVERY</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">NEWS & REVIEWS</a>
+                                <a href="#" class="link">NEWS & REVIEWS</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link"> PERSONAL FINANCE APPLICATION</a>
+                                <a href="#" class="link"> PERSONAL FINANCE APPLICATION</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">PERSONAL LEASING GUIDE</a>
+                                <a href="#" class="link">PERSONAL LEASING GUIDE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">SALARY SACRIFICE</a>
+                                <a href="#" class="link">SALARY SACRIFICE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">SERVICE AND MAINTENANCE GUIDE</a>
+                                <a href="#" class="link">SERVICE AND MAINTENANCE GUIDE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">SHORT-TERM CAR LEASING</a>
+                                <a href="#" class="link">SHORT-TERM CAR LEASING</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">SHORT-TERM LEASE AND RENTAL T&CS</a>
+                                <a href="#" class="link">SHORT-TERM LEASE AND RENTAL T&CS</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">SYNERGY TOTAL CARE</a>
+                                <a href="#" class="link">Nash Automotive TOTAL CARE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">SYNERGY STORY</a>
+                                <a href="#" class="link">Nash Automotive STORY</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">SYNERGY YOUDRIVE MAINTENANCE</a>
+                                <a href="#" class="link">Nash Automotive YOUDRIVE MAINTENANCE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">TERMS & CONDITIONS</a>
+                                <a href="#" class="link">TERMS & CONDITIONS</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">TREATING CUSTOMERS FAIRLY</a>
+                                <a href="#" class="link">TREATING CUSTOMERS FAIRLY</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">USED CAR LEASING</a>
+                                <a href="#" class="link">USED CAR LEASING</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">VAN LEASING GUIDE</a>
+                                <a href="#" class="link">VAN LEASING GUIDE</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">VISITOR POLICY</a>
+                                <a href="#" class="link">VISITOR POLICY</a>
                             </li>
                             <li class="list-item-fooder">
-                                <a class="link">WEBSITE T&CS</a>
+                                <a href="#" class="link">WEBSITE T&CS</a>
                             </li>
                         </ul>
                     </div>
@@ -808,7 +1786,7 @@
                         </div>
                         <div class="logo-area">
                             <a href="#">
-                                <img class="synergy-logo" src="assets/image/synergy-logo.png" alt="logo">
+                                <img class="synergy-logo" src="assets/image/logo.png" alt="logo">
                             </a>
                         </div>
                     </div>
@@ -819,13 +1797,13 @@
             <div class="container">
                 <div class="text-last-area">
                     <p class="last-textone">
-                        © Synergy Automotive Ltd trading as Synergy Car Leasing 2024 - 12A Hornbeam Park Oval, Hornbeam Park, Harrogate, North Yorkshire HG2 8RB
+                        © Nash Automotive Automotive Ltd trading as Nash Automotive Car Leasing 2024 - 12A Hornbeam Park Oval, Hornbeam Park, Harrogate, North Yorkshire HG2 8RB
                     </p>
                     <p class="last-texttwo">
-                        Synergy Automotive Limited trading as Synergy Car Leasing is Authorised and Regulated by the Financial Conduct Authority (FCA) FRN 660618
+                        Nash Automotive Automotive Limited trading as Nash Automotive Car Leasing is Authorised and Regulated by the Financial Conduct Authority (FCA) FRN 660618
                         Data Protection Number Z9922966. VAT No: 897 793728 We are a credit broker of vehicle finance and in specific cases operate as a funder.
-                        You will be made aware if we are acting as a broker or a funder. Synergy Automotive is a member of the British Vehicle Rental and Leasing
-                        Associate (BVRLA) number 1684 Synergy Automotive Ltd is a Registered Company in England – Company Number 6015644 All images are for
+                        You will be made aware if we are acting as a broker or a funder. Nash Automotive Automotive is a member of the British Vehicle Rental and Leasing
+                        Associate (BVRLA) number 1684 Nash Automotive Automotive Ltd is a Registered Company in England – Company Number 6015644 All images are for
                         illustration purposes only. All pricing is subject to change at any time, and is subject to finance credit approval and vehicle
                         availability. Vehicle information and data is for guidance only and subject to change. Excess mileage and damage charges may apply
                     </p>
@@ -833,6 +1811,11 @@
             </div>
         </div>
     </section>
+    <div class="back-top">
+        <a href="#topbar" class="arrow-top">
+            <i class='bx bxs-chevron-up'></i>
+        </a>
+    </div>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="assets/js/script.js" defer></script>
     <script>
@@ -849,6 +1832,30 @@
         })(window, document, 'script', '../../../www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-46156385-1', 'cssscript.com');
         ga('send', 'pageview');
+
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                210: {
+                    slidesPerView: 1,
+                    spaceBetweenSlides: 30
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetweenSlides: 40
+                }
+            }
+        });
 
     </script>
 </body>
