@@ -837,9 +837,9 @@ video {
     -webkit-transition: .4s all;
     -o-transition: .4s all;
     transition: .4s all;
-    height: 40px;
+   
     line-height: 40px;
-    padding: 10px 30px;
+    padding: 7px 30px;
     background: rgba(28, 28, 28, .9);
 }
 
@@ -887,7 +887,7 @@ video {
 }
 
 .filter-itme-area .select-item .filter-form .filter-item {
-    flex-basis: 20%;
+    flex-basis: 31%;
 }
 
 .filter-itme-area .select-item .filter-form .filter-item select {
@@ -1193,6 +1193,25 @@ video {
     background: #1993b5 !important;
 }
 
+.car-filter .van-p-btn {
+    color: #FFF;
+    font-weight: 400;
+    ext-transform: uppercase;
+    text-align: center;
+    user-select: none;
+    padding: 2px 10px;
+    font-size: 1em;
+    height: auto;
+    line-height: 18px;
+    border-radius: 14px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-transform: uppercase;
+    background: #292929;
+}
+
+
+
 .car-filter-heading {
     flex-basis: 75%;
 }
@@ -1418,7 +1437,6 @@ video {
     border-radius: 14px;
     -webkit-box-shadow: none;
     box-shadow: none;
-    margin-bottom: 10px;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -2096,7 +2114,7 @@ video {
     color: #414e54;
 }
 
-.join-box .numbar-box .ul-itam .list-item {
+.join-box .numbar-box .ul-item .list-item {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.3;
@@ -2255,42 +2273,42 @@ video {
 
 /* -----------------End Join-section Css-------------------- */
 /* -----------------Start Footer-section Css-------------------- */
-.fooder-section {}
+.footer-section {}
 
-.fooder-nav {
+.footer-nav {
     padding: 20px 0px;
     background: #314A51;
 }
 
-.fooder-area {
+.footer-area {
     display: flex;
     justify-content: space-between;
 }
 
-.fooder-link-area {
+.footer-link-area {
     flex-basis: 65%;
 }
 
-.ul-itam-fooder {
+.ul-item-footer {
     display: flex;
     flex-wrap: wrap;
 }
 
-.ul-itam-fooder .list-item-fooder .link {
+.ul-item-footer .list-item-footer .link {
     font-size: 11px;
     line-height: 25px;
     color: #FFF;
     margin: 8px;
 }
 
-.fooder-logo-araa {
+.footer-logo-araa {
     flex-basis: 30%;
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
 }
 
-.icon-area .icon-ul-fooder {
+.icon-area .icon-ul-footer {
     display: flex;
     justify-content: space-around;
 }
@@ -2327,7 +2345,7 @@ video {
     height: 65px;
 }
 
-.last-fooder {
+.last-footer {
     background: #000000;
     padding: 30px 0px;
 }
@@ -2350,15 +2368,15 @@ video {
 }
 
 @media all and (max-width:991px) {
-    .fooder-area {
+    .footer-area {
         flex-wrap: wrap;
     }
 
-    .fooder-link-area {
+    .footer-link-area {
         flex-basis: 100%;
     }
 
-    .fooder-logo-araa {
+    .footer-logo-araa {
         flex-basis: 100%;
         display: flex;
         justify-content: space-between;
@@ -2376,7 +2394,7 @@ video {
 }
 
 @media all and (max-width:767px) {
-    .ul-itam-fooder {
+    .ul-item-footer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -2384,7 +2402,7 @@ video {
         align-items: center;
     }
 
-    .fooder-logo-araa {
+    .footer-logo-araa {
         justify-content: center;
     }
 
@@ -2411,4 +2429,19 @@ video {
 .back-top .arrow-top .bxs-chevron-up {
     font-size: 35px;
     color: #1993b5;
+}
+
+#car-section{
+   
+}
+#van-section{
+    display: none;
+}
+#car-personal-show{
+    display: none;
+  
+}
+
+#personal-van-show{
+    display: none;
 }
